@@ -1,0 +1,77 @@
+{
+  "name": "react-dashboard-tiktok",
+  "description": "Tiktok Academy",
+  "author": "Xuan Loc",
+  "keywords": [
+    "bootstrap 5",
+    "react",
+    "react dashboard",
+    "react admin template",
+    "free react",
+    "react ui library",
+    "react bootstrap 5",
+    "bootstrap 5 dashboard"
+  ],
+  "version": "1.0.1",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@teachablemachine/image": "^0.8.5",
+    "@tensorflow/tfjs": "^4.17.0",
+    "@themesberg/react-bootstrap": "^1.4.1",
+    "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "chartist": "^1.3.0",
+    "chartist-plugin-tooltips-updated": "^0.1.4",
+    "form-data": "^4.0.0",
+    "moment-timezone": "^0.5.31",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-chartist": "^0.14.4",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-datetime": "^3.0.4",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.2.0",
+    "react-images-uploading": "^3.1.7",
+    "react-live": "^2.4.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-tag-input": "^6.8.1",
+    "react-toastify": "8.0.0",
+    "react-transition-group": "^4.4.5",
+    "simplebar-react": "^2.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-local": "PUBLIC_URL=./ react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
